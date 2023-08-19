@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <html lang="en">
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+        <title>Etch-A-Sketch</title>
+    </head>
+    <body>
+        <script src ="script.js" defer> </script>
+        <div class="wrapper">
+            <div class="main">
+                <div class="title-wrapper">
+                    <div class="title">
+                       Etch-A-Sketch
+                    </div>
+                    <div class="color-toggle">COLOURING</div>
+                </div>
+                <div id="grid-container">
+
+                </div>
+
+                <div class="bottom">
+                    <div class="left-knob"></div>
+                    <div class="controls">
+                        <div class="grid-size">
+                            <p>Grid Size</p>
+                            <input id='slider'type="range" value="16" min="2" max="99"/>
+                            <span id="output"></span>
+                            <button id="set-size">Set Size</button>
+                            <span id="output-size"></span>
+                            <div id="grid-num"></div>
+                        </div>
+                        <div class="color">
+                            <p>Color</p>
+                            <input id="color-picker" type="color">
+                        </div>
+                        <div class="buttons">
+                            <div class="half-buttons">
+                            <button class="rainbow-btn">Rainbow</button>
+                            <button class="random-btn">Random</button>
+                            </div>
+                            <button class="erase-btn">Erase</button>
+                            <button class="reset-btn">Reset</button>
+                        </div>
+                    </div>
+                    <div class="right-knob"></div>
+                </div>
+            </div>
+        
+            
+        </div>
+    </body>
+</html>
